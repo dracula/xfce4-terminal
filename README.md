@@ -1,4 +1,5 @@
 # Dracula theme for xfce4-terminal
+![Screenshot](./assets/screenshot.png)
 
 ## Installation
 
