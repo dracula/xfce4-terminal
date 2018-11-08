@@ -1,4 +1,4 @@
-# Dracula theme for Xfce Terminal Emulator
+# Dracula theme for xfce4-terminal
 
 ## Installation
 
