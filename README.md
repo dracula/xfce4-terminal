@@ -2,6 +2,8 @@
 
 ![Screenshot](./assets/screenshot.png)
 
+Screenshot with Operator Mono Medium 14
+
 ## Installation
 
 Download Dracula.theme
