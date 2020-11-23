@@ -8,7 +8,7 @@ OUTPUT_FILE=Dracula.theme
 if [ -f $SPEC_FILE ]; then
     . $SPEC_FILE
 else
-    exit(1) # SPEC_FILE not found
+    exit 1 # SPEC_FILE not found
 fi
 
 cat << EOF > $OUTPUT_FILE
@@ -17,8 +17,11 @@ NAME=Dracula
 ColorCursor=$Foreground
 ColorForeground=$Foreground
 ColorBackground=$Background
-TabActivityCOlor=
-ColorPalette=
-ColorSelectionBackground=
+ColorPalette=$AnsiBlack;$AnsiRed;$AnsiGreen;$AnsiYellow;$AnsiBlue;$AnsiMagenta;$AnsiCyan;$AnsiWhite;$AnsiBrightBlack;$AnsiBrightRed;$AnsiBrightGreen;$AnsiBrightYellow;$AnsiBrightBlue;$AnsiBrightMagenta;$AnsiBrightCyan;$AnsiBrightWhite
 EOF
+
+# TODO
+# --with-cursor-color
+# --with-tab-activity-color
+# --with-color-selection-background
 
