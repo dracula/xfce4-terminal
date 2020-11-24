@@ -1,5 +1,6 @@
 # Dracula theme for xfce4-terminal
-![Screenshot](./assets/screenshot.png)
+
+![Screenshot](screenshot.png)
 
 Screenshot with Operator Mono Medium 14
 
