@@ -2,7 +2,7 @@
 
 set -e
 
-SPEC_FILE=./spec.conf
+SPEC_FILE=spec.conf
 OUTPUT_FILE=Dracula.theme
 
 if [ -f $SPEC_FILE ]; then
