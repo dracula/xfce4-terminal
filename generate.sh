@@ -1,7 +1,5 @@
 #!/bin/sh
 
-set -x
-
 PALETTE_FILE=palette.conf
 OUTPUT_FILE=Dracula.theme
 
