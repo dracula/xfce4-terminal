@@ -1,14 +1,16 @@
 #!/bin/sh
 
-set -e
+set -x
 
 SPEC_FILE=spec.conf
 OUTPUT_FILE=Dracula.theme
 
+pwd
 if [ -f $SPEC_FILE ]; then
-    . $SPEC_FILE
+    . ./$SPEC_FILE
 else
-    exit 1 # SPEC_FILE not found
+    echo $SPEC_FILE not found.
+    exit 1
 fi
 
 cat << EOF > $OUTPUT_FILE
