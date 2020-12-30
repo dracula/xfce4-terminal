@@ -13,7 +13,7 @@ fi
 
 cat << EOF > $OUTPUT_FILE
 [Scheme]
-NAME=Dracula
+Name=Dracula
 ColorCursor=$Foreground
 ColorForeground=$Foreground
 ColorBackground=$Background
