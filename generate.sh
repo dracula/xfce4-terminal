@@ -1,21 +1,19 @@
 #!/bin/sh
 
-set -x
-
-SPEC_FILE=spec.conf
+PALETTE_FILE=palette.conf
 OUTPUT_FILE=Dracula.theme
 
 pwd
-if [ -f $SPEC_FILE ]; then
-    . ./$SPEC_FILE
+if [ -f $PALETTE_FILE ]; then
+    . ./$PALETTE_FILE
 else
-    echo $SPEC_FILE not found.
+    echo $PALETTE_FILE not found.
     exit 1
 fi
 
 cat << EOF > $OUTPUT_FILE
 [Scheme]
-NAME=Dracula
+Name=Dracula
 ColorCursor=$Foreground
 ColorForeground=$Foreground
 ColorBackground=$Background
