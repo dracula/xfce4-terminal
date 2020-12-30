@@ -3,7 +3,6 @@
 PALETTE_FILE=palette.conf
 OUTPUT_FILE=Dracula.theme
 
-pwd
 if [ -f $PALETTE_FILE ]; then
     . ./$PALETTE_FILE
 else
