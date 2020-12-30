@@ -2,7 +2,7 @@
 
 ![Screenshot](screenshot.png)
 
-Screenshot with Operator Mono Medium 14
+Screenshot with Cascadia Code
 
 ## Installation
 
