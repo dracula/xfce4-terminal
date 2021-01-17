@@ -2,7 +2,7 @@
 
 ![Screenshot](screenshot.png)
 
-Screenshot with Cascadia Code
+Screenshot with SF Mono
 
 ## Installation
 
