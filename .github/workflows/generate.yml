@@ -25,5 +25,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Generating Dracula.theme
-        run: ./generate.sh
+        run: ./scripts/generate.sh
 

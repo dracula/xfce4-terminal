@@ -1,16 +1,14 @@
-# Dracula theme for xfce4-terminal
+# Dracula for xfce4-terminal
 
 ![Screenshot](screenshot.png)
 
 Screenshot with SF Mono
 
-## Installation
+## Install
 
-Download Dracula.theme
+All instructions can be found at [draculatheme.com/xfce4-terminal](https://draculatheme.com/xfce4-terminal)
 
-Put the file in `~/.local/share/xfce4/terminal/colorschemes`
+## License
 
-## `generate.sh` and `palette.conf`
-
-Dracula color palette is defined in `palette.conf`. You can generate xfce4-terminal theme file by `generate.sh`.
+[MIT License](./LICENSE)
 
